@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <title>Home</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <img src="logo-ead.png" width="180px" height="50px"/><span class="mr-3"></span>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="home.html">Home </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="profile.html">Profile</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="product.html">Products</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="row mt-5">
+    <div class="col-sm-2"></div>
+    <div class="col-sm-4 bg-secondary d-flex justify-content-center align-items-center">
+        <iframe width="400" height="200" src="https://www.youtube.com/embed/AwMeQJ_u73I" frameborder ="0" 
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="col-sm-4 bg-light pt-4 pb-5">
+            <h5><center>Registrasi Data Pelanggan</center></h5>
+            <form action="">
+                <div class="form-group">
+                    <div class= "row">
+                        <div class="col-md-4 mt-3">
+                            <label for="inputnama">Nama</label>
+                        </div>
+                        <div class="col-md-6 mt-3">
+                            <input type="text" name="nama" class="form-control" value="Nur Intan" id="inputnama" placeholder="Nama anda..."/>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 mt-3">
+                            <label for="nohp">Nomor.HP</label>
+                        </div>
+                        <div class="col-md-6 mt-3">
+                            <input type="text" name="nomorhp" value="081316104460" id="nohp" class="form-control"/>
+                        </div>
+                    </div>
+                    <div class="form-group row mt-4">
+                        <label class="control-label col-sm-4" for="inputalamat">Alamat</label>
+                        <div class="col-sm-6">
+                        <textarea id="inputalamat" name="alamat" class="form-control" cols="10"></textarea>
+                        </div>
+                        </div>
+                    <div class="row">
+                        <div class="col-md-4 mt-3">
+                            <label>Pembayaran</label>
+                        </div>
+                        <div class="col-md-6 mt-3">
+                            <div class= "form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="pembayaran" id="cash" value="option1">
+                            <label class="from-check-label" for="cash">Cash</label>
+                        </div>
+                        <div class= "form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="pembayaran" id="credit" value="option2">
+                            <label class="from-check-label" for="credit">Credit</label>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 mt-3">
+                            <label for="KatPes">Kategori Pesanan</label>
+                        </div>
+                        <div class="col-md-6 mt-3">
+                            <select class="form-control" name ="KategoriPesanan" id="KatPes">
+                                <option value="Komputer" name>Komputer</option>
+                                <option value="Keyboard">Keyboard</option>
+                                <option value="Mouse">Mouse</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-10 mt-3">
+                        <button type="submit" class="btn btn-primary btn-block" >Kirim</button>
+                    </div>
+                    </div>
+
+                </div>
+                
+            </form>
+        </table>
+    </div>
+
+</div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>
