@@ -1,0 +1,11 @@
+<?php
+session_start();
+unset($_SESSION['id']);
+unset($_SESSION['name']);
+unset($_SESSION['status']);
+setcookie('id','',time()-3600);
+setcookie('login','',time()-3600);
+setcookie('navbar','',time()-3600);
+session_destroy();
+header("Location:login.php?berhasil=1");
+?>
